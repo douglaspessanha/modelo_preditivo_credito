@@ -1,2 +1,4 @@
 # modelo_preditivo_credito
 Modelos preditivos do perfil "mau pagador" do dataset "German Credit Data"
+
+Foi utilizada a linguagem Python na realização do trabalho. Para limpeza dos dados e preparação do dataset, a biblioteca pandas foi escolhida. Os modelos foram empregados através da biblioteca scikit learn. Os três modelos de classificação escolhidos foram: Regressão Logistica, Random Forest Classifier e o Multi-layer Perceptron Classifier, uma rede neural. Os dados foram dividos entre treinamento e teste com 70% dos dados para treinamento e 30% para teste nos três classificadores. O argumento "random_state" possui o mesmo valor nos 3 classificadores, para que tratassem dos mesmo dados. Também foi avaliada a acurácia, precisão, revocação e F1-score dos modelos. Por fim, na Regressão Logística foi avaliado os coeficientes das variáveis e no Random Forest a importância das caracteristicas. 
